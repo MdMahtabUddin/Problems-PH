@@ -7,7 +7,10 @@
 // const output = Math.ceil(myNumber);
 // Math.celi always return nearest top number 
 
-const myNumber =5.999;
-const output =Math.floor(myNumber);
+// const myNumber =5.999;
+// const output =Math.floor(myNumber);
 // Math.floor always return nearest bottom number 
-console.log(output);
+
+const myNumber =Math.random() * 6;
+const rounded = Math.round(myNumber);
+console.log(rounded);
