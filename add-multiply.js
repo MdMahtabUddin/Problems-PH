@@ -11,8 +11,9 @@ const perTableWood =10;
 const chairWood = chairQuantity * perChairWood;
 const bedWood = bedQuantity * perBedWood;
 const tableWood = tableQuantity *perTableWood;
-
 totalWood = chairWood + bedWood +tableWood;
+// console.log(totalWood);
+
 return totalWood;
 }
 
