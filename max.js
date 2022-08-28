@@ -14,5 +14,18 @@ const army =900;
 
 // another way 
 
-var max = Math.max(business,minister,army);
-console.log('largest is', max);
+// var max = Math.max(business,minister,army);
+// console.log('largest is', max);
+
+function numbers (firstNamunber , secondNumber, thirdNmumber){
+if (firstNamunber > secondNumber && firstNamunber > thirdNmumber){
+    return firstNamunber;
+}else if (secondNumber> firstNamunber && secondNumber> thirdNmumber ){
+    return secondNumber;
+} else {
+    return thirdNmumber;
+}
+}
+
+const myNumber = numbers(415, 60, 75);
+console.log(myNumber);
