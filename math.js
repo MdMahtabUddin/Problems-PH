@@ -13,6 +13,6 @@
 // const output =Math.floor(myNumber);
 // Math.floor always return nearest bottom number 
 
-const myNumber =Math.random() * 6;
-const rounded = Math.round(myNumber);
-console.log(rounded);
+// const myNumber =Math.random() * 6;
+// const rounded = Math.round(myNumber);
+// console.log(rounded);

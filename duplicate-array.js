@@ -18,3 +18,5 @@ for (let element of names){
 
 const uniqueName = removeDuplicate(names);
 console.log(uniqueName)
+
+
