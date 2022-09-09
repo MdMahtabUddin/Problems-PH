@@ -14,7 +14,7 @@ function myNumber (number){
     let sum =0;
 for (let i =0; i< number.length; i++){
     const element = number[i];
-    sum +=element;
+    sum =element + sum;
 }
     return sum;
 }
