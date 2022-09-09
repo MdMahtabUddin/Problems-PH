@@ -21,3 +21,5 @@ for (let i =0; i< number.length; i++){
 const total= myNumber([67,50,45,92]);
 
 console.log(total);
+
+
